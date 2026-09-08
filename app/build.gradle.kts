@@ -49,6 +49,11 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.activity:activity-compose:1.10.1")
 
+    // MVVM：viewModel() 组合函数 + StateFlow 状态持有
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.9.0")
+    // 协程：Flow 流式收集、viewModelScope 协程作用域
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.1")
+
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 }
